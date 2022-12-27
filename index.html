@@ -1,40 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<style>
-    #Nbar{
-        margin-left: 10%;
-        font-size: large;
-    }
-    nav{
-        color: white;
-        background-color: rgba(0, 0, 0, 0.722);
-        margin-top: -2.2%;
-        padding-top: 1.5%;
-        padding-bottom: 1%;
-        margin-left: -0.8%;
-        margin-right: -0.65%;
-    }
-    input{
-        margin-left: 15%;
-        font-size: small;
-        background-color: rgba(255, 255, 255, 0.722);
-        color: white;
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chicken Nugets</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia" />
+    <style>
+      
+        #Nbar {
+            margin-left: 7%;
+            font-size: large;
+            color: white;
+            text-decoration: none;
         }
-</style>
-<body>
+
+        nav {
+            color: white;
+            background-color: rgba(0, 0, 0, 0.722);
+            margin-top: -2.2%;
+            padding-top: 1%;
+            margin-left: -0.8%;
+            margin-right: -0.65%;
+            border-bottom: 8px solid rgb(218, 243, 34);
+        }
+
+        input {
+            margin-left: 10%;
+            font-size: small;
+            color: white;
+            background: transparent;
+            border: none;
+            border-bottom: 2px solid white;
+        }
+
+        #intro {
+            float: right;
+            width: 40%;
+            text-align: justify;
+            padding-top: 0%;
+            margin-right: 6%;
+        }
+
+        #Orecipe {
+            float: right;
+            text-align: center;
+            border-left: 3px solid rgba(0, 0, 0, 0.269);
+            padding-left: 5%;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+
+        #ingd {
+            float: left;
+            text-align: justify;
+            font-size: larger;
+            line-height: 40px;
+            padding-left: 5%;
+        }
+        /* #Direction{
+            line-height: 100%
+        } */
+        #gototop{
+        text-decoration: none;
+        font-size: medium;   
+        }
+        #about
+        {
+            float: none;
+        }
+        #Smedia{
+            text-decoration: none;
+            color: rgb(19, 15, 255);
+            }
+        #about{
+            border-top: 8px solid rgb(218, 243, 34);
+            background-color:  rgba(0, 0, 0, 0.722);
+            color: white;
+            width: 157%;
+            margin-top: -15.9%;
+            padding-top: 20px;
+            padding-left: 10%;
+            margin-left: -10%;
+            }
+        #myPic{
+            border-radius: 85px;
+            border: 4px solid rgba(0, 0, 0, 0.436);
+        }
+        #info{
+            margin-bottom: 5%;
+            padding-left: -40%;
+        }
+    </style>
+</head>
+
+<body id="top" style="">
     <nav>
-    <h1><b style="font-style: italic; margin-left: 5%;"><u> LoveCoocking</u> </b> <a id="Nbar" href="">Home</a> <a id="Nbar" href="">Making</a> <a id="Nbar" href="">Other Recipes</a>
-    <input type="text" placeholder="Search" >
-    </h1>
-</nav>
-<p style="margin-top: 0%; margin-left: -1%;">
-<img src="./images/01.jpg" alt="">
-</p>
+        <h1>
+            <b style="
+            font-style: italic;
+            margin-left: 5%;
+            font-family: Sofia;
+            font-size: larger;
+          ">LoveCooking</b>
+            <a id="Nbar" href="#about">About us</a>
+            <a id="Nbar" href="#ing">Ingredients</a>
+            <a id="Nbar" href="#Dec">Direction</a>
+            <a id="Nbar" href="#Orep">Other Recipes</a>
+            <input type="text" placeholder="Fina a Recipe" />
+        </h1>
+    </nav>
+    <img style="margin-left: -0.65%; height: 400px; width: 600px;" src="./images/01.jpg" alt="" />
+
+    <p id="intro">
+        <br /><br /><br /><br />
+        <b style="font-size: 250%; color: rgba(0, 0, 0, 0.722)"><u>Chicken Nugets</u></b><br /><br />
+        If you happen to be a chicken lover or your guests are coming over on
+        short notice, then this easy and quick chicken recipe should be your go-to
+        option. You can serve these bite-sized delights in house parties too. What
+        makes these nuggets even more delicious is the amalgamation of crunchy
+        coating, spicy and tender chicken. This chicken delicacy makes for a
+        perfect tea time snack that is no doubt drool-worthy! Pack these nuggets
+        in your kids' lunchbox and be ready to get showered with tons of praises
+        and compliments.
+        <br /><br /><br /><br /><br /><br><b
+            style="background-color: rgba(248, 240, 145, 0.557);margin-left: -25%; padding-left: 25%; padding-bottom: 2.9%; padding-top: 2.9%; margin-right: 0%;color: rgb(0, 0, 0); padding-right: 5%; border-radius: 50px;"><b>Prep
+                Time: 20 min</b><b style="padding-left: 6%">Cook Time: 20 min</b><b style="padding-left: 6%;">Total
+                Time: 40 mins </b></b>
+    </p>
+    <hr /><br><br>
+    <div id="ingd">
+        <h2 id="ing" style="color:rgba(0, 0, 0, 0.722) ;"> Ingredients<a id="gototop" href="#top"><sup>^</sup></a></h2>
+        <ul>
+            <li>3 skinless, boneless chicken breasts</li><hr>
+            <li>1 cup Italian seasoned bread crumbs</li><hr>
+            <li>½ cup grated Parmesan cheese</li><hr>
+            <li>1 tablespoon dried basil</li><hr>
+            <li>1 teaspoon dried thyme</li><hr>
+            <li>1 teaspoon salt</li><hr>
+            <li> ½ cup butter, melted</li><hr>
+        </ul><br>
+        <h2 id="Dec" style="color:rgba(0, 0, 0, 0.722) ;">Directions<a id="gototop" href="#top"><sup>^</sup></a></h2>
+        <p id="Direction"><b style="color:rgba(0, 0, 0, 0.722)">Step 1</b><br> Preheat the oven to 400 degrees F (200 degrees C). <br><hr><b style="color:rgba(0, 0, 0, 0.722)">Step 2</b><br> Cut chicken
+            breasts into 1 1/2-inch pieces. Mix the bread crumbs, <br> Parmesan, basil, thyme, and salt together well in a
+            medium bowl. <br> Put melted butter in a bowl or dish for dipping.
+            <br><hr><b style="color:rgba(0, 0, 0, 0.722)">Step 3</b><br>Dip chicken pieces
+            into the melted butter first, then coat with the <br> bread crumb mixture. Place the well-coated chicken nuggets
+            on <br> a lightly greased cookie sheet in a single layer.
+            <br><hr><b style="color:rgba(0, 0, 0, 0.722)">Step 4</b><br>Bake nuggets in the preheated
+            oven until browned and chicken is <br> cooked through, about 20 minutes. <br>
+            <img style="border-right: 8px solid rgb(218, 243, 34);border-bottom:8px solid rgb(218, 243, 34 );" src="./images/05.jpg" width="60%" height="60%">
+        </p><br><br>
+        <div id="about">
+            <h2 style="line-height: 0%;">About Us<a id="gototop" href="#top"><sup style="color: white;">^</sup></a></h2>
+            <p>Hello and Salam (Peace)! <br> I am Karan Kumar, the face behind LoveCooking.</p>
+            <a id="Smedia" href="https://www.facebook.com/kkvmalhi?mibextid=ZbWKwL" target="_blank">Facebook</a>
+            <a style="margin-left: 10%;" id="Smedia" href="https://www.instagram.com/ds_alpha07" target="_blank">Instagram</a>
+            <a style="margin-left: 10%;" id="Smedia" href="https://www.twitter.com/DSALPHA_07" target="_blank">Twitter</a>
+            <a style="margin-left: 10%;" id="Smedia" href="https://www.youtube.com/@dsalpha304" target="_blank">Youtube</a><br>
+        </div>
+        
+       </div>
+
+    </div>
+
+
+    <div id="Orecipe">
+        <h2 id="Orep" style="color:rgba(0, 0, 0, 0.722) ;"><u><br> Other Recipes</u><a id="gototop" href="#top"><sup>^</sup></a></h2><br><br><br>
+        <a id="gototop" href=""><img style="border-left: 8px solid rgb(218, 243, 34);" src="./images/02.jpg" width="250px" height="122px"><br style="text-align: center;">Orange
+            cake</a><br><br><br><br><br><br>
+        <a id="gototop" href=""><img style="border-left: 8px solid rgb(218, 243, 34);" src="./images/03.jpg" width="200px" height="262px"><br style="text-align: center;">Vanilla Ice
+            Cream</a><br><br><br><br><br><br>
+        <a id="gototop" href=""><img style="border-left: 8px solid rgb(218, 243, 34);" src="./images/04.jpg" width="250px" height="167px"><br style="text-align: center;">Pancake</a>
+            Cream</a><br><br><br><br><br><br>
+        <a id="gototop" href=""><img style="border-left: 8px solid rgb(218, 243, 34);" src="./images/06.jpg" width="250px" height="312px"><br style="text-align: center;">Coco chip Cookie</a>
+            <br><br><br><br><br><br>
+        <a id="gototop" href=""><img style="border-left: 8px solid rgb(218, 243, 34);" src="./images/07.jpg" width="300px" height="200px"><br style="text-align: center;">Cutlery</a>
+        <br><br>
+    </div><br>
+    
 </body>
+
 </html>
